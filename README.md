@@ -75,19 +75,19 @@ Furthermore, to launch a stealthier attack, we innovatively employ the neighbour
 
 ### Quick Start
 
-- **Launch the Geometry PointCA **
+- Launch the Geometry PointCA
 
 ```
 python model_geometry_adaptive_attack.py --knn 8 --eta 1.5 --gpu 2 # more parameters
 ```
 
-- **Launch the Latent PointCA **
+- Launch the Latent PointCA
 
 ```
 python model_latent_adaptive_attack.py --knn 8 --eta 0.8 --Lambda 20 --gpu 0 # more parameters
 ```
 
-- **Other perturbation constraint baselines **
+- Other perturbation constraint baselines
 
 ```
 python model_geometry_channelwise_attack.py --epsilon 0.04 --gpu 3
