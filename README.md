@@ -14,7 +14,7 @@ Furthermore, to launch a stealthier attack, we innovatively employ the neighbour
 
 ## TODO
 
-- [x] Release tensorflow version code, include attacks on [PCN](https://arxiv.org/abs/1808.00671) and [Detail Preserved PCN](https://arxiv.org/abs/2007.02374).
+- [ ] Release tensorflow version code, include attacks on [PCN](https://arxiv.org/abs/1808.00671) and [Detail Preserved PCN](https://arxiv.org/abs/2007.02374).
 - [ ] Release pytorch version code, include attacks on [GRNet](https://arxiv.org/abs/2006.03761) and [VRCNet](https://arxiv.org/abs/2104.10154).
 
 ## TensorFlow Version
@@ -47,7 +47,7 @@ Furthermore, to launch a stealthier attack, we innovatively employ the neighbour
 
   The TF operators are included under `tf_ops` and `pc_distance`, you need to compile them. Check the `makefile` under `pc_distance` folder and `compile.sh` under `tf_ops`. (You need to check the the CUDA path and tensorflow path in each  tf_xxx_compile_abs.sh under each tf_ops subfolder) first. Refer to [Pointnet++](https://github.com/charlesq34/pointnet2) and [Detail Preserved PCN](https://github.com/XLechter/Detail-Preserved-Point-Cloud-Completion-via-SFA) for more details.
 
-- #### **Download checkpoints and assets **
+- #### Download checkpoints and assets
 
   - The pretrained checkpoints is available at: [[Google](https://drive.google.com/file/d/10W6ciGw9vCSXgyt74inSN-vGrDjOZySq/view?usp=sharing)] [[Baidu](https://pan.baidu.com/s/1hrf_zVIczhlq8VZEDuCnvg)] pw:0n32, unzip the completion.zip file in ```PointCA/PointCA_TF/ckpt/completion```.
 
